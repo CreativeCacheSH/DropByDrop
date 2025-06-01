@@ -171,7 +171,7 @@
     <h4>
       Technology has reached many corners of the world—but millions still live without life’s most basic need: clean water. At Charity: Water, we fund community-led, sustainable water projects in places where the need is greatest. 100% of public donations go directly to the field, and every project is mapped and tracked. Join a generation that’s turning connection into compassion—and progress into clean water for all.
     </h4>
-{space}
+<section>
     <button class="cta-button">Send Water Not Just Wifi</button>
   </section>
 
