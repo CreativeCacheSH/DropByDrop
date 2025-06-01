@@ -82,6 +82,7 @@
       margin-top: -7rem; /* reduced */
       max-width: 700px;
     }
+&nbsp;
 
     header h2 {
       max-width: 900px;
