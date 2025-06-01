@@ -79,8 +79,8 @@
 
     header h1 {
       font-size: 1.7rem;
-      margin-top: -7rem; /* reduced */
-      max-width: 700px;
+      margin-top: 10rem; /* reduced */
+      max-width: 700px; margin-bottom: 18rem; /* added space */
     }
 &nbsp;
 
