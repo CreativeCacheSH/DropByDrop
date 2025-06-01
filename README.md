@@ -62,7 +62,7 @@
     }
 
     nav ul li a:hover {
-      color: var(--yellow);
+      color: var(--blue);
     }
 
     header {
@@ -126,8 +126,8 @@
     }
 
     footer {
-      background-color: var(--yellow);
-      color: var(--black);
+      background-color: var(--black);
+      color: var(--cream);
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
