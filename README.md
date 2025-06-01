@@ -1,8 +1,5 @@
-# OneDropAtATime
-Change the world one drop at a time
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -68,20 +65,26 @@ Change the world one drop at a time
     }
 
     header {
-      background-color: var(--blue);
+      background: url('https://cdn2.dropmarkusercontent.com/52043/e81bc77957f16a7e4b6308fed5816d1aab58afb3/preview/JS_20170803_2859.jpg?Expires=1748764986&Signature=ZCflzrJXoh14U4pHALJ12zyAfwr7XsvXdoJ7pTH0bMvePi2nIfzb~Kx2Y0qUTOMzebfZDKmeNkQx9hGCWv27tLh00JwL7uwkusP29bYJzYlWueo6dlIO0dMIpt7CfGeCNHwOrYimaplQQhf-7vAgIrbcayok838xEbcT4mD6p33Y8~j-k3k7-TVCihdH5Fv181-etWh4xT4XMIlB9smD3rFDm~kYUPGw4hGzuTSHujSr-x7c-OxdNqXVQ-oWS6c7pIMf3DK46aawbSHs9sZ8Ug5z2SvILG0j4vnwCgZtmGqq1IRV4Uku2X1CSf3eEqOMo7cCXOzDCws82hzX-wOhsA__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ') center/cover no-repeat;
+      height: 90vh;
       color: white;
-      padding: 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       text-align: center;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+      padding: 1rem;
     }
 
     header h1 {
       font-size: 2.5rem;
-      color: var(--navy);
     }
 
     header p {
       font-size: 1.2rem;
       margin-top: 0.5rem;
+      max-width: 700px;
     }
 
     .value-prop {
@@ -185,5 +188,4 @@ Change the world one drop at a time
     &copy; 2025 Charity: Water. All rights reserved.
   </footer>
 </body>
-
 </html>
