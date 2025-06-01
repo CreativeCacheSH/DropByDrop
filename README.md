@@ -79,7 +79,7 @@
 
     header h1 {
       font-size: 1.7rem;
-      margin-top: 2rem; /* reduced */
+      margin-top: -7rem; /* reduced */
       max-width: 700px;
     }
 
