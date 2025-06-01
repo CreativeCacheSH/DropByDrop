@@ -40,11 +40,7 @@
       flex-wrap: wrap;
     }
 
-    nav .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: var(--yellow);
-    }
+
 
     nav ul {
       list-style: none;
@@ -79,29 +75,28 @@
     }
 
     header h1 {
-      font-size: 1.7rem;
+      font-size: 1.7rem;margin-top: 7rem;
+      max-width: 700px;
     }
 
     header p {
       font-size: 0rem;
-      margin-top: 15.0rem;
+      margin-top: 20.0rem;
       max-width: 700px;
     }
 
-    .value-prop {
-      padding: 2rem 1rem;
+    header h2 {
       max-width: 900px;
       margin: auto;
-      background-color: white;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-      margin-top: 2rem;
+      margin-top: 17rem;
     }
 
     .value-prop h3 {
       color: var(--navy);
       font-size: 1.8rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
 
     .cta {
