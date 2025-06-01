@@ -208,7 +208,7 @@
 
 
   <section class="blue-section">
-    <h3>Your Ripple Effect</h3>
+    <h3>Let's Make Waves</h3>
     <p>Every dollar you give goes directly to bringing clean water to communities in need. From digging wells to innovating purification systems, you're not just donating — you're transforming lives drop by drop.</p>
     <div class="button-group">
       <button class="cta-button">Once</button>
