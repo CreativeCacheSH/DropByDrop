@@ -218,9 +218,9 @@
     </div>
     <div class="button-group">
       <button class="cta-button">$10 USD/mo</button>
-      <button class="cta-button">Fundraise</button>
-      <button class="cta-button">Join Campus Team</button>
-      <button class="cta-button">Share on Social</button>
+      <button class="cta-button">$20 USD/mo</button>
+      <button class="cta-button">$30/mo</button>
+      <button class="cta-button">$40/mo</button>
     </div>
   </section>
 
