@@ -13,6 +13,7 @@
       --cream: #FFF7E1;
       --black: #1A1A1A;
       --gray: #CBCCD1;
+      --pink: #FED8C1
       --font: 'Proxima Nova', sans-serif;
     }
 
@@ -99,6 +100,10 @@
     }
 
     section h3 {
+      background-color: var(--cream);
+      color: var(--pink);
+      border: none;
+      padding: 1rem 2rem;
       border-radius: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
       margin-bottom: 1rem;
