@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Charity: Water | College Campaign</title>
+  <title>Charity: Water
+  College Campaign</title>
   <link href="https://fonts.googleapis.com/css2?family=Proxima+Nova&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -30,12 +31,12 @@
     }
 
     nav {
-      background-color: var(--navy);
+      background-color: var(--black);
       padding: 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      color: white;
+      color: cream;
       flex-wrap: wrap;
     }
 
@@ -109,7 +110,7 @@
     }
 
     .cta button {
-      background-color: var(--yellow);
+      background-color: var(--blue);
       color: var(--black);
       border: none;
       padding: 1rem 2rem;
@@ -156,7 +157,10 @@
 
 <body>
   <nav>
-    <div class="logo">Charity: Water</div>
+    <div class="logo">
+  <img src="HeroImage/Images/charitywater_logo_horizontal_AllWhite.png" alt="Charity: Water Logo" style="height: 40px;">
+</div>
+<nav>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li>
