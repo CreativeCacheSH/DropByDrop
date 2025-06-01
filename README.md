@@ -113,6 +113,7 @@
       margin-bottom: 2rem;
       line-height: 1.5;
     }
+    
 
     .cta-button {
       background-color: var(--blue);
