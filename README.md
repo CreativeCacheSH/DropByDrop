@@ -84,7 +84,7 @@
 
     header p {
       font-size: 0rem;
-      margin-top: 13.0rem;
+      margin-top: 15.0rem;
       max-width: 700px;
     }
 
@@ -98,7 +98,7 @@
       margin-top: 2rem;
     }
 
-    .value-prop h2 {
+    .value-prop h3 {
       color: var(--navy);
       font-size: 1.8rem;
       margin-bottom: 1rem;
@@ -170,11 +170,11 @@
 
   <header>
     <h1>Change the World, One Drop at a Time</h1>
-    <p>You're not just a student—you’re a changemaker. Help bring clean water to communities in need.</p>
+    <h2> Swap scrolling for a tap, Be the reason someone's life changes today</h2>
   </header>
 
   <section class="value-prop" id="about">
-    <h2>Why Clean Water?</h2>
+    <h3>Why Clean Water?</h3>
     <p>
       At Charity: Water, we believe access to clean water is a human right. In a world where smartphones and tech have
       reached the most remote places, millions still live without safe water. With our 100% model, every dollar you give
