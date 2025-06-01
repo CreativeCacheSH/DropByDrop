@@ -79,12 +79,12 @@
     }
 
     header h1 {
-      font-size: 2.5rem;
+      font-size: 1.7rem;
     }
 
     header p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
+      font-size: 0rem;
+      margin-top: 13.0rem;
       max-width: 700px;
     }
 
