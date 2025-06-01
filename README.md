@@ -65,7 +65,7 @@
     }
 
     header {
-      background: url('https://cdn2.dropmarkusercontent.com/52043/e81bc77957f16a7e4b6308fed5816d1aab58afb3/preview/JS_20170803_2859.jpg?Expires=1748764986&Signature=ZCflzrJXoh14U4pHALJ12zyAfwr7XsvXdoJ7pTH0bMvePi2nIfzb~Kx2Y0qUTOMzebfZDKmeNkQx9hGCWv27tLh00JwL7uwkusP29bYJzYlWueo6dlIO0dMIpt7CfGeCNHwOrYimaplQQhf-7vAgIrbcayok838xEbcT4mD6p33Y8~j-k3k7-TVCihdH5Fv181-etWh4xT4XMIlB9smD3rFDm~kYUPGw4hGzuTSHujSr-x7c-OxdNqXVQ-oWS6c7pIMf3DK46aawbSHs9sZ8Ug5z2SvILG0j4vnwCgZtmGqq1IRV4Uku2X1CSf3eEqOMo7cCXOzDCws82hzX-wOhsA__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ') center/cover no-repeat;
+      background: url('https://cdn2.dropmarkusercontent.com/52043/e81bc77957f16a7e4b6308fed5816d1aab58afb3/preview/JS_20170803_2859.jpg') center/cover no-repeat;
       height: 90vh;
       color: var(--cream);
       font-family: var(--font);
@@ -80,10 +80,10 @@
 
     header h1 {
       font-size: 1.7rem;
-      margin-top: 10rem; /* reduced */
-      max-width: 700px; margin-bottom: 18rem; /* added space */
+      margin-top: 10rem;
+      max-width: 700px;
+      margin-bottom: 18rem;
     }
-&nbsp;
 
     header h2 {
       max-width: 900px;
@@ -113,24 +113,49 @@
       margin-bottom: 2rem;
       line-height: 1.5;
     }
-    
+
+    .blue-section {
+      background-color: var(--blue);
+      color: var(--navy);
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .blue-section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .blue-section p {
+      font-size: 1rem;
+      max-width: 600px;
+      margin: 0 auto 2rem auto;
+    }
+
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
 
     .cta-button {
-      background-color: var(--blue);
+      background-color: var(--cream);
       color: var(--navy);
       border: none;
       padding: 1rem 2rem;
-      font-size: 1.25rem;
+      font-size: 1.1rem;
       border-radius: 50px;
       cursor: pointer;
       transition: background-color 0.3s ease;
       font-family: var(--font);
       font-weight: 600;
-      box-shadow: 0 4px 8px rgba(254, 216, 193, 0.8);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     }
 
     .cta-button:hover {
-      background-color:var(--cream);
+      background-color: var(--pink);
     }
 
     footer {
@@ -178,8 +203,25 @@
     <h4>
       Technology has reached many corners of the world—but millions still live without life’s most basic need: clean water. At Charity: Water, we fund community-led, sustainable water projects in places where the need is greatest. 100% of public donations go directly to the field, and every project is mapped and tracked. Join a generation that’s turning connection into compassion—and progress into clean water for all.
     </h4>
-<section>
+  </section>
+
+  <section>
     <button class="cta-button">Send Water Not Just Wifi</button>
+  </section>
+
+  <section class="blue-section">
+    <h3>Your Ripple Effect</h3>
+    <p>Every dollar you give goes directly to bringing clean water to communities in need. From digging wells to innovating purification systems, you're not just donating — you're transforming lives drop by drop.</p>
+    <div class="button-group">
+      <button class="cta-button">Once</button>
+      <button class="cta-button">Monthly</button>
+    </div>
+    <div class="button-group">
+      <button class="cta-button">$10 USD/mo</button>
+      <button class="cta-button">Fundraise</button>
+      <button class="cta-button">Join Campus Team</button>
+      <button class="cta-button">Share on Social</button>
+    </div>
   </section>
 
   <footer>
