@@ -109,8 +109,8 @@
     }
 
     .cta-button {
-      background-color: var(--yellow);
-      color: var(--black);
+      background-color: var(--blue);
+      color: var(--navy);
       border: none;
       padding: 1rem 2rem;
       font-size: 1.25rem;
@@ -119,11 +119,11 @@
       transition: background-color 0.3s ease;
       font-family: var(--font);
       font-weight: 600;
-      box-shadow: 0 4px 8px rgba(255, 201, 7, 0.4);
+      box-shadow: 0 4px 8px rgba(193, 233, 253, 0.4);
     }
 
     .cta-button:hover {
-      background-color: #e6b300;
+      background-color:var(--cream);
     }
 
     footer {
