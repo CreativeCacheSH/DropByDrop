@@ -119,7 +119,7 @@
       transition: background-color 0.3s ease;
       font-family: var(--font);
       font-weight: 600;
-      box-shadow: 0 4px 8px rgba(193, 233, 253, 0.4);
+      box-shadow: 0 4px 8px rgba(254, 216, 193, 0.4);
     }
 
     .cta-button:hover {
