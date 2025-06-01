@@ -205,9 +205,7 @@
     </h4>
   </section>
 
-  <section>
-    <button class="cta-button">Send Water Not Just Wifi</button>
-  </section>
+
 
   <section class="blue-section">
     <h3>Your Ripple Effect</h3>
@@ -223,6 +221,11 @@
       <button class="cta-button">$40/mo</button>
     </div>
   </section>
+
+  <section>
+    <button class="cta-button">Send Water Not Just Wifi</button>
+  </section>
+
 
   <footer>
     &copy; Charity: Water 2025
