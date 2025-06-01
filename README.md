@@ -13,7 +13,7 @@
       --cream: #FFF7E1;
       --black: #1A1A1A;
       --gray: #CBCCD1;
-      --pink: #FED8C1
+      --pink: #FED8C1;
       --font: 'Proxima Nova', sans-serif;
     }
 
@@ -101,7 +101,7 @@
 
     section h3 {
       background-color: var(--cream);
-      color: var(--pink);
+      color: var(--navy);
       border: none;
       padding: 1rem 2rem;
       border-radius: 20px;
