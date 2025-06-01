@@ -24,11 +24,11 @@
     }
 
     body {
-      font-family: var(--font);
-      background-color: var(--gray);
-      color: var(--black);
-      line-height: 1.6;
-    }
+  font-family: var(--font);
+  background-color: var(--black);
+  color: var(--cream);
+  line-height: 1.6;
+}
 
     nav {
       background-color: var(--black);
@@ -40,8 +40,6 @@
       flex-wrap: wrap;
     }
 
-
-
     nav ul {
       list-style: none;
       display: flex;
@@ -51,7 +49,7 @@
     }
 
     nav ul li a {
-      color: white;
+      color: var(--cream);font-family: var(--font);
       text-decoration: none;
       font-size: 1rem;
       transition: color 0.3s ease;
@@ -64,7 +62,7 @@
     header {
       background: url('https://cdn2.dropmarkusercontent.com/52043/e81bc77957f16a7e4b6308fed5816d1aab58afb3/preview/JS_20170803_2859.jpg?Expires=1748764986&Signature=ZCflzrJXoh14U4pHALJ12zyAfwr7XsvXdoJ7pTH0bMvePi2nIfzb~Kx2Y0qUTOMzebfZDKmeNkQx9hGCWv27tLh00JwL7uwkusP29bYJzYlWueo6dlIO0dMIpt7CfGeCNHwOrYimaplQQhf-7vAgIrbcayok838xEbcT4mD6p33Y8~j-k3k7-TVCihdH5Fv181-etWh4xT4XMIlB9smD3rFDm~kYUPGw4hGzuTSHujSr-x7c-OxdNqXVQ-oWS6c7pIMf3DK46aawbSHs9sZ8Ug5z2SvILG0j4vnwCgZtmGqq1IRV4Uku2X1CSf3eEqOMo7cCXOzDCws82hzX-wOhsA__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ') center/cover no-repeat;
       height: 90vh;
-      color: white;
+      color: var(--cream);font-family: var(--font);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -75,59 +73,28 @@
     }
 
     header h1 {
-      font-size: 1.7rem;margin-top: 7rem;
-      max-width: 700px;
-    }
-
-    header p {
-      font-size: 0rem;
-      margin-top: 20.0rem;
+      font-size: 1.7rem;margin-top: 40rem;
       max-width: 700px;
     }
 
     header h2 {
-      max-width: 900px;
-      margin: auto;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-      margin-top: 17rem;
-    }
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-top: 17rem;
+  margin-bottom: 2rem; /* 👈 added space below h2 */
+}
 
-    .value-prop h3 {
-      color: var(--navy);
-      font-size: 1.8rem;
-      margin-bottom: 2rem;
-    }
+header h3 {
+  max-width: 700px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-top: 0;
+  margin-bottom: 5rem; /* ⬅️ more space below h3 */
+}
 
-    .cta {
-      text-align: center;
-      margin: 2rem 1rem;
-    }
-
-    .cta button {
-      background-color: var(--blue);
-      color: var(--navy);
-      border: none;
-      padding: 1rem 2rem;
-      font-size: 1.1rem;
-      font-weight: bold;
-      border-radius: 30px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-
-    .cta button:hover {
-      background-color: #FFF7E1;
-    }
-
-    footer {
-      background-color: var(--black);
-      color: var(--cream);
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      margin-top: 3rem;
-    }
 
     @media (min-width: 768px) {
       nav ul {
@@ -136,15 +103,6 @@
 
       header h1 {
         font-size: 3rem;
-      }
-
-      .value-prop h2 {
-        font-size: 2rem;
-      }
-
-      .cta button {
-        font-size: 1.2rem;
-        padding: 1.2rem 2.5rem;
       }
     }
   </style>
@@ -166,25 +124,12 @@
   <header>
     <h1>Change the World, One Drop at a Time</h1>
     <h2> Swap scrolling for a tap, Be the reason someone's life changes today</h2>
+    <Section>
+    <h3> Why Change The World?</h3>
+    <h4> Technology has reached many corners of the world—but millions still live without life’s most basic need: clean water. At Charity: Water, we fund community-led, sustainable water projects in places where the need is greatest. 100% of public donations go directly to the field, and every project is mapped and tracked. Join a generation that’s turning connection into compassion—and progress into clean water for all.
+</h4>
   </header>
-
-  <section class="value-prop" id="about">
-    <h3>Why Clean Water?</h3>
-    <p>
-      At Charity: Water, we believe access to clean water is a human right. In a world where smartphones and tech have
-      reached the most remote places, millions still live without safe water. With our 100% model, every dollar you give
-      directly funds water projects. Join a global movement—right from your campus—and help end the water crisis for good.
-    </p>
-  </section>
-
-  <div class="cta" id="take-action">
-    <button onclick="window.location.href='https://www.charitywater.org/donate'">
-      Send Water, Not WiFi
-    </button>
-  </div>
-
-  <footer>
-    &copy; 2025 Charity: Water. All rights reserved.
-  </footer>
+<Section>
+&nbsp;
 </body>
 </html>
