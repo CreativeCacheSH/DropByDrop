@@ -111,7 +111,7 @@
 
     .cta button {
       background-color: var(--blue);
-      color: var(--black);
+      color: var(--navy);
       border: none;
       padding: 1rem 2rem;
       font-size: 1.1rem;
@@ -122,11 +122,11 @@
     }
 
     .cta button:hover {
-      background-color: #e6b800;
+      background-color: #FFF7E1;
     }
 
     footer {
-      background-color: var(--gray);
+      background-color: var(--yellow);
       color: var(--black);
       text-align: center;
       padding: 1rem;
