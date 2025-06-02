@@ -13,7 +13,7 @@
       --black: #1A1A1A;
       --gray: #CBCCD1;
       --pink: #FED8C1;
-      --font: 'Proxima Nova', sans-serif;
+      --font: 'Proxima Nova';
     }
 
     * {
@@ -85,12 +85,12 @@
       font-size: 1.7rem;
       margin-top: 10rem;
       max-width: 700px;
-      margin-bottom: 18rem;
+      margin-bottom: 10rem;
     }
 
     header h2 {
       max-width: 900px;
-      margin: 1rem auto 2rem auto;
+      margin: 4rem auto 4rem auto;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     }
@@ -232,3 +232,4 @@
   </footer>
 </body>
 </html>
+
