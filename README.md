@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -42,6 +41,10 @@
       align-items: center;
       color: var(--cream);
       flex-wrap: wrap;
+    }
+
+    .logo img {
+      height: 40px;
     }
 
     nav ul {
@@ -184,7 +187,7 @@
 <body>
   <nav>
     <div class="logo">
-      <img src="HeroImage/Images/charitywater_logo_horizontal_AllWhite.png" alt="Charity: Water Logo" style="height: 40px;" />
+      <img src="WhiteLogo.png" alt="Charity: Water Logo" />
     </div>
     <ul>
       <li><a href="#">Home</a></li>
@@ -205,8 +208,6 @@
     </h4>
   </section>
 
-
-
   <section class="blue-section">
     <h3>Let's Make Waves</h3>
     <p>Every dollar you give goes directly to bringing clean water to communities in need. From digging wells to innovating purification systems, you're not just donating — you're transforming lives drop by drop.</p>
@@ -225,7 +226,6 @@
   <section>
     <button class="cta-button">Send Water Not Just Wifi</button>
   </section>
-
 
   <footer>
     &copy; Charity: Water 2025
