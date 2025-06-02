@@ -83,9 +83,9 @@
 
     header h1 {
       font-size: 1.7rem;
-      margin-top: 10rem;
+      margin-top: 40rem;
       max-width: 700px;
-      margin-bottom: 10rem;
+      margin-bottom: 50rem;
     }
 
     header h2 {
